@@ -100,10 +100,10 @@
     </style>
   </head>
   <body>
-    <div class="header">
+    <header>
       <span class="logo" aria-hidden="true"></span> <!-- bevisst: viktig info kun i bilde uten tekstalternativ -->
       <span class="site-title">Min side</span>
-    </div>
+    </header>
 
     <div class="nav" role="navigation"> <!-- bevisst: upresist role og ingen semantisk <nav> -->
       <a href="#">Hjem</a>
@@ -119,11 +119,12 @@
       <a href="#">Kontakt</a>
     </div>
 
-    <div class="ticker">
+    <section>
       <p>Viktig beskjed: Les dette! Klikk her! Klikk her! Klikk her! Veldig viktig! ✨</p>
-    </div>
+    </section>
 
-    <table class="layout" role="presentation"> <!-- bevisst: tabell for layout -->
+    <aside>
+    <section> <!-- bevisst: tabell for layout -->
       <tr>
         <td class="sidebar">
           <div class="card" id="sekjson">
@@ -134,7 +135,7 @@
             </p>
             <p class="status-ok">Tilgjengelig</p>
             <p class="status-bad">Utilgjengelig</p>
-          </div>
+          </section>
 
           <div class="card">
             <h4>Språk</h4>
